@@ -1,0 +1,181 @@
+*{margin: 0; padding: 0;}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+section {
+    min-height: 43vw;
+}
+
+
+nav {
+    position: fixed;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 6rem;
+
+    position: fixed;
+
+    align-items: center;
+    justify-content: center;
+    height: 5vw;
+    width: 100%;
+    background-color: rgba(2, 2, 2, 0.507);
+
+    box-shadow: 0px 2px 4px rgba(2, 2, 2, 0.507);
+}
+
+
+
+#Inicio {
+    background-color: #5c4033;
+    padding-top: 3rem;
+
+    color: #fff;
+    display: flex;
+    justify-content: center;  
+}
+.textos {
+    display: inline-block;
+    margin-top: 17vw;
+}
+.desenho {
+    margin-top: 50px;
+}
+button {
+    margin-top: 10px;
+    margin-left: 7vw;
+    display: inline-block;
+    background: none;
+    color: #fff;
+    border: 0;
+    position: relative;
+    transition: all 500ms ease-in-out;
+}
+button::after {
+    content: '';
+
+    transition: inherit;
+
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: #add8e6;
+
+    position: absolute;
+    top: -50%;
+    left: -10px;
+
+    opacity: 0.3;
+    z-index: 1;
+
+    transition: .3% linear;
+}
+button:hover:after {
+    width: calc(100% + 40%);
+    border-radius: 20px;
+    opacity: 0.6;
+}
+
+
+
+
+#Sobremim {
+    background-color: #6d4b3c;
+    padding-top: 3rem;
+
+    color: #fff;
+    display: flex;
+    justify-content: center; 
+}
+.textomain{
+    display: inline-block;
+    margin-top: 15vw;
+    justify-content: center;
+    width: 500px;
+}
+.textomain, h1, p {
+    margin-bottom: 10px;
+    margin-right: 50px;
+}
+.Arthur {
+    margin-right: 50px;
+    margin-top: 5vw;
+}
+
+
+
+
+#Trabalhos {
+    background-color: #5c4033;
+    padding-top: 3rem;
+}
+.Fotos {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    margin-right: 1vw;
+    margin-top: 100px;
+
+    box-shadow: #000;
+}
+
+
+
+
+
+#Habilidades {
+    background-color: #6d4b3c;
+    padding-top: 3rem;
+
+    color: #fff;
+}
+.logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    margin-right: 1vw;
+    margin-top: 9vw;
+
+    box-shadow: #000;
+}
+.textoh {
+    align-items: center;
+    text-align: center;
+    margin-top: 6vw;
+    
+}
+.logos {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+footer {
+    color: #fff;
+    display: flex;
+
+    align-items: center; 
+
+    gap: 6rem;
+
+    height: 4vw;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.884);
+}
+.textof {
+    margin-left: 80vw;
+}
